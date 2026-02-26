@@ -76,7 +76,7 @@
     },
     {
       "nome": "Escondidinhos",
-      "icone": "fa-pot-food",
+      "icone": "fa-pot-food",   
       "itens": [
         { "nome": "Frango com crisps de cebola", "descricao": "Batata inglesa, batata doce ou mandioca", "preco": 29.90 },
         { "nome": "Bolonhesa com parmesão", "descricao": "", "preco": 29.90 },
