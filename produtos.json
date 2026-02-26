@@ -1,0 +1,113 @@
+{
+  "categorias": [
+    {
+      "nome": "Café Quentes",
+      "icone": "fa-mug-hot",
+      "itens": [
+        { "nome": "Espresso Curto", "descricao": "Grãos moídos na hora", "preco": 7.90 },
+        { "nome": "Expresso Longo", "descricao": "", "preco": 14.90 },
+        { "nome": "Mocaccino", "descricao": "Leite, café e cacau", "preco": 12.90 },
+        { "nome": "Capuccino Brasileiro", "descricao": "Leite, café, cacau e canela", "preco": 12.90 },
+        { "nome": "Submarino Pequeno", "descricao": "Expresso curto e tablete de chocolate", "preco": 8.90 },
+        { "nome": "Submarino Especial", "descricao": "", "preco": 16.90 },
+        { "nome": "Caramelo Macchiato", "descricao": "Leite, café e cacau de caramelo", "preco": 16.90 },
+        { "nome": "Especial Monalisa", "descricao": "Café, leite em infusão de hibisco e pistache", "preco": 23.90 },
+        { "nome": "Dulce de Leche", "descricao": "Leite, coco ou amendoim, café e doce de leite", "preco": 20.90 },
+        { "nome": "Café Passado", "descricao": "Café moído na hora e para passar na mesa", "preco": 24.90 }
+      ]
+    },
+    {
+      "nome": "Café Gelados",
+      "icone": "fa-mug-saucer",
+      "itens": [
+        { "nome": "Especial Ovo Maltine", "descricao": "Leite, café, calda de chocolate e Ovo Maltine", "preco": 18.90 },
+        { "nome": "Especial de Caramelo", "descricao": "Leite, café, calda, chantilly e caramelo salgado", "preco": 18.90 },
+        { "nome": "Frappuccino", "descricao": "Leite, café, chocolate, canela e chantilly", "preco": 22.90 },
+        { "nome": "Chocolate", "descricao": "Leite, chocolate e Narella", "preco": 22.90 },
+        { "nome": "Afogato", "descricao": "Expresso e sorvete", "preco": 9.90 },
+        { "nome": "Capuccino Brasileiro Gelado", "descricao": "", "preco": 18.90 },
+        { "nome": "Coco Nute", "descricao": "Leite, leite de coco, café, sorvete, chantilly e coco", "preco": 27.90 }
+      ]
+    },
+    {
+      "nome": "Chá",
+      "icone": "fa-leaf",
+      "itens": [
+        { "nome": "Chá individual", "descricao": "Consultar opções", "preco": 7.90 },
+        { "nome": "Chá para compartilhar", "descricao": "Consultar opções", "preco": 19.90 }
+      ]
+    },
+    {
+      "nome": "Café da Manhã",
+      "icone": "fa-bread-slice",
+      "itens": [
+        { "nome": "Pão italiano com abacate, ovos e bacon", "descricao": "Pão italiano torrado, abacate, ovos mexidos e bacon", "preco": 24.90 },
+        { "nome": "Iogurte com granola e frutas", "descricao": "", "preco": 14.90 }
+      ]
+    },
+    {
+      "nome": "Brusquetas",
+      "icone": "fa-baguette",
+      "itens": [
+        { "nome": "Marguerita", "descricao": "Pão italiano, queijo coalho, confit de alho, tomate, manjericão, pimenta e azeite", "preco": 26.90 },
+        { "nome": "Gorgonzola", "descricao": "Pão italiano, muçarela, gorgonzola, mel e nozes", "preco": 32.90 },
+        { "nome": "Brie com geleia", "descricao": "Pão italiano, brie, geleia de amora e confit de alho", "preco": 34.90 },
+        { "nome": "Zucchini", "descricao": "Pão italiano, confit de alho, abobrinha, parmesão e crispy de alho", "preco": 26.90 },
+        { "nome": "Torrada", "descricao": "Pão de forma, manteiga, presunto e queijo", "preco": 14.90 }
+      ]
+    },
+    {
+      "nome": "Saladas",
+      "icone": "fa-leaf",
+      "itens": [
+        { "nome": "Salada Ceasar", "descricao": "Alface, parmesão, frango em cubos, croutons e molho", "preco": 24.90 },
+        { "nome": "Salada Monalisa", "descricao": "Alface, cebola roxa, cenoura, tomate cereja, parmesão e crispe de batata doce", "preco": 26.90 },
+        { "nome": "Salada Primavera", "descricao": "Alface, rúcula, palmito, manga, morango, gergelim, lâminas de amêndoa e molho", "preco": 24.90 }
+      ]
+    },
+    {
+      "nome": "Lasanhas",
+      "icone": "fa-utensils",
+      "itens": [
+        { "nome": "Lasanha de Frango", "descricao": "Molho branco, frango ao molho vermelho e muçarela", "preco": 28.90 },
+        { "nome": "Lasanha à Bolonhesa", "descricao": "Molho bolonhesa, presunto e muçarela", "preco": 34.90 },
+        { "nome": "Lasanha de Peixe", "descricao": "Tilápia ao molho branco e muçarela", "preco": 39.90 }
+      ]
+    },
+    {
+      "nome": "Escondidinhos",
+      "icone": "fa-pot-food",
+      "itens": [
+        { "nome": "Frango com crisps de cebola", "descricao": "Batata inglesa, batata doce ou mandioca", "preco": 29.90 },
+        { "nome": "Bolonhesa com parmesão", "descricao": "", "preco": 29.90 },
+        { "nome": "Ragu com tempero verde", "descricao": "", "preco": 36.90 }
+      ]
+    },
+    {
+      "nome": "Massas",
+      "icone": "fa-spaghetti",
+      "itens": [
+        { "nome": "Nhoque (batata ou batata doce)", "descricao": "Molho sugo, branco, bolonhesa ou gorgonzola", "preco": 34.90 },
+        { "nome": "Penne / Fusilli / Espaguete", "descricao": "Molho sugo, branco, pesto ou gorgonzola", "preco": 34.90 },
+        { "nome": "Massa alho e óleo da casa", "descricao": "Porção individual", "preco": 22.90 }
+      ]
+    },
+    {
+      "nome": "Bebidas",
+      "icone": "fa-wine-bottle",
+      "itens": [
+        { "nome": "Suco", "descricao": "Consultar sabores", "preco": 13.90 },
+        { "nome": "Pepsi Lata", "descricao": "", "preco": 7.00 },
+        { "nome": "Pepsi Black", "descricao": "", "preco": 7.00 },
+        { "nome": "Guaraná Lata", "descricao": "", "preco": 7.00 },
+        { "nome": "Guaraná Zero", "descricao": "", "preco": 7.00 },
+        { "nome": "Fanta Uva", "descricao": "", "preco": 7.00 },
+        { "nome": "Fanta Laranja", "descricao": "", "preco": 7.00 },
+        { "nome": "Água com gás", "descricao": "", "preco": 4.00 },
+        { "nome": "Água sem gás", "descricao": "", "preco": 4.00 },
+        { "nome": "H2OH", "descricao": "", "preco": 10.00 },
+        { "nome": "Cereja Long", "descricao": "", "preco": 15.00 }
+      ]
+    }
+  ]
+}
