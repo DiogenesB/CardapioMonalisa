@@ -3,17 +3,17 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes">
-  <title>MonaLisa Aromas & Sabores · Cardápio Digital</title>
+  <title>MonaLisa · Cardápio Digital</title>
   <link rel="stylesheet" href="style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Inter:wght@300;400;500;600&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
   <!-- CARRINHO FLUTUANTE -->
-  <div class="carrinho-float" id="carrinho-float">
-    <button class="carrinho-btn" id="abrir-carrinho" aria-label="Abrir carrinho">
+  <div class="carrinho-float">
+    <button class="carrinho-btn" id="abrir-carrinho">
       <i class="fas fa-shopping-bag"></i>
       <span class="carrinho-count" id="carrinho-count">0</span>
     </button>
@@ -24,10 +24,9 @@
     <div class="carrinho-modal-content">
       <div class="carrinho-modal-header">
         <h3><i class="fas fa-shopping-bag"></i> Seu Pedido</h3>
-        <button class="fechar-carrinho" id="fechar-carrinho" aria-label="Fechar carrinho"><i class="fas fa-times"></i></button>
+        <button class="fechar-carrinho" id="fechar-carrinho"><i class="fas fa-times"></i></button>
       </div>
       <div class="carrinho-modal-body" id="carrinho-body">
-        <!-- Itens serão inseridos via JS -->
         <p class="carrinho-vazio">Seu carrinho está vazio</p>
       </div>
       <div class="carrinho-modal-footer">
@@ -42,7 +41,7 @@
     </div>
   </div>
 
-  <!-- HEADER SOFISTICADO -->
+  <!-- HEADER -->
   <header class="menu-header">
     <div class="container">
       <h1>MonaLisa <span>Aromas & Sabores</span></h1>
@@ -53,20 +52,18 @@
     </div>
   </header>
 
-  <!-- BARRA DE CATEGORIAS COM SCROLL HORIZONTAL -->
+  <!-- NAVEGAÇÃO -->
   <nav class="categoria-nav">
-    <div class="container">
-      <ul class="categoria-lista" id="categoria-lista"></ul>
-    </div>
+    <ul class="categoria-lista" id="categoria-lista"></ul>
   </nav>
 
-  <!-- CONTEÚDO DO CARDÁPIO -->
+  <!-- CARDÁPIO -->
   <main class="container">
     <div id="cardapio-container"></div>
   </main>
 
-  <!-- BOTÃO VOLTAR AO TOPO (mobile) -->
-  <button class="back-to-top" id="backToTop" aria-label="Voltar ao topo">
+  <!-- BOTÃO VOLTAR AO TOPO -->
+  <button class="back-to-top" id="backToTop">
     <i class="fas fa-arrow-up"></i>
   </button>
 
